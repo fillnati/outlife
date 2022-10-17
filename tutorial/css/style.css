@@ -1,6 +1,8 @@
 .container {
   border: 2px solid black;
   margin: 10px;
+  margin-left: 123;
+  
 }
 .Lesson_28 {
   margin-left: 30%; /* Отступ слева */
@@ -11,7 +13,7 @@
 .main_block {
   font-size: 100px;
   color: blue;
-  font-style: italic;
+  font-style: italic;   Отступ слева
 }
 .block_1 {
   color: red;
@@ -22,9 +24,25 @@
   color: black;
   font-size: 50px;
 }
+
 .border {
   border: 10px solid green;
 }
 .select_table {
   text-align: center;
+  font-size: 35px;
+}
+.select_table:hover {
+  text-align: left;
+  font-size: 60px;
+}
+.button {
+  size: 100px 200px;
+  background-color: red;
+}
+.button:hover {
+  background-color: blue;
+}
+.button:after {
+  background-color: aquamarine;
 }
