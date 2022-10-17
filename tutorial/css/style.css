@@ -1,48 +1,40 @@
-.container {
-  border: 2px solid black;
-  margin: 10px;
-  margin-left: 123;
+header > nav > ul > li > a {
+  text-decoration: none;
+}
+header > nav > ul > li {
+  list-style-type: none;
+  display: inline;
+  padding-left: 35px;
+}
+header > nav > ul {
+  display: block;
+  text-align: center;
+}
+header nav {
+  display: flex;
+  padding: 30px;
+  justify-content: space-between;
+}
+.buttons-header {
+  display: inline-block;
+  border: 3px;
+  border-radius: 10px;
+  padding: 5px 15px;
   
 }
-.Lesson_28 {
-  margin-left: 30%; /* Отступ слева */
-  margin-right: 30%; /* Отступ справа */
-  background: rgb(26, 171, 142); /* Цвет фона */
-  padding: 10px;
-}
-.main_block {
-  font-size: 100px;
-  color: blue;
-  font-style: italic;  
-}
-.block_1 {
-  color: red;
-  font-style: normal;
-}
-.bg_red {
-  background-color: red;
+.buttons-header a {
+  text-decoration: none;
   color: black;
-  font-size: 50px;
+  justify-content: center;
 }
-
-.border {
-  border: 10px solid green;
+.btn-join {
+  background-color: rgb(111, 111, 173);
+  
 }
-.select_table {
-  text-align: center;
-  font-size: 35px;
+.btn-sing-up {
+  background-color: bisque;
 }
-.select_table:hover {
-  text-align: left;
-  font-size: 60px;
+.first-clm {
 }
-.button {
-  size: 100px 200px;
-  background-color: red;
-}
-.button:hover {
-  background-color: blue;
-}
-.button:after {
-  background-color: aquamarine;
+.second-clm {
 }
