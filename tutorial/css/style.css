@@ -20,7 +20,6 @@ header nav {
   border: 3px;
   border-radius: 10px;
   padding: 5px 15px;
-  
 }
 .buttons-header a {
   text-decoration: none;
@@ -29,12 +28,10 @@ header nav {
 }
 .btn-join {
   background-color: rgb(111, 111, 173);
-  
 }
 .btn-sing-up {
   background-color: bisque;
 }
-.first-clm {
-}
-.second-clm {
+.pdg-left {
+  padding-left: 30px;
 }

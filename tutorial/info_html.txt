@@ -1,77 +1,33 @@
-<ul>
-  или
-  <ol>
-    для определения типа списка
-    <li>
-      для создания пункта списка
-
-      <table>
-        — область таблицы
-        <tr>
-          — строка
-          <thead>
-            — шапка таблицы
-            <th>
-              — ячейка шапки
-              <tbody>
-                — тело таблицы
-                <td>
-                  — ячейка
-                  <ul>
-                    или
-                    <ol>
-                      для определения типа списка
-                      <li>
-                        для создания пункта списка
-                        <b></b>
-                        <strong></strong>
-                        <br />
-                        <i></i>
-                        <em></em>
-                        <span></span>
-                        <p></p>
-                        <h1></h1>
-                        <h2></h2>
-                        <h3></h3>
-                        <h4></h4>
-                        <h5></h5>
-                        <h6></h6>
-                        <p title="click here"></p>
-                        <p title="click here">click here</p>
-                        <em><span class="class"></span></em>
-                        <h1>h1</h1>
-                        <h2>h2</h2>
-                        <h3>h3</h3>
-                        <h4>h4</h4>
-                        <h5>h5</h5>
-                        <h3>h<br />3</h3>
-                        <a
-                          href="http://"
-                          target="_blank"
-                          rel="noopener noreferrer"
-                        ></a>
-                        <a href="mailto:dmitriybychev2018@gmail.com"
-                          >моя почта</a
-                        >
-                        <a href="https://game.mercury-labs.co">мой хост </a>
-                        <a href="#anchor">Переход на главу 2</a>
-                        ... ... ...
-                        <div id="anchor">
-                          <h2>Глава 2</h2>
-                        </div>
-                        https://ru.wikipedia.org/wiki/Мнемоники_в_HTML
-                      </li>
-                    </ol>
-                  </ul>
-                </td>
-              </tbody>
-            </th>
-          </thead>
-        </tr>
-      </table>
-    </li>
-  </ol>
-</ul>
+<table>— область таблицы
+<tr> — строка
+<thead> — шапка таблицы
+<th> — ячейка шапки
+<tbody> — тело таблицы
+<td> — ячейка
+<ul> или <ol> для определения типа списка
+<li> для создания пункта списка
+<b></b>
+<strong></strong>
+<br />
+<i></i>
+<em></em>
+<span></span>
+<p></p>
+<h1></h1>
+<h2></h2>
+<h3></h3>
+<h4></h4>
+<h5></h5>
+<h6></h6>
+<p title="click here"></p>
+<p title="click here">click here</p>
+<em><span class="class"></span></em>
+<h1>h1</h1>
+<h2>h2</h2>
+<h3>h3</h3>
+<h4>h4</h4>
+<h5>h5</h5>
+<h3>h<br />3</h3>
 
 
 <audio src="путь_к_аудио-файлу" controls></audio>

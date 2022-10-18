@@ -1,0 +1,47 @@
+<style>
+  @keyframes shake-input {
+    25% {
+      transform: translateX(4px);
+    }
+    50% {
+      transform: translateX(-4px);
+    }
+    75% {
+      transform: translateX(4px);
+    }
+  }
+  input:invalid {
+    animation: shake-input 0.3s;
+  }
+  .relative-position {
+    position: relative;
+    top: 100px;
+    right: 50px;
+    box-sizing: border-box;
+    background-color: red;
+    width: 50px;
+    height: 50px;
+    padding: 20px;
+  }
+  .pdg-left {
+    margin-left: 30px;
+    padding-left: 30px;
+  }
+</style>
+<div class="relative-position pdg-left">
+  <input
+    type="text"
+    placeholder="What`s your name?"
+    maxlength="10"
+    minlength="4"
+  />
+  <input
+    type="tel"
+    placeholder="###"
+    pattern="[0-9]{3}"
+    aria-describedby="desc"
+    size="2"
+    maxlength="3"
+  />
+  <small id="desc ">Введите 4-х значный код!</small>
+</div>
