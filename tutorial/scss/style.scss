@@ -1,0 +1,20 @@
+.btn {
+    border: 1px dotted;
+    color: #fff;
+    background-color: rgba(0, 0, 255, 0.113);
+
+
+    &__join {
+        border-radius: 10px;
+        padding: 3px;
+    }
+    &__sing-up {
+        margin-left: 5px;
+        border-radius: 15px;
+        padding: 5px;
+
+    }
+}
+.block_1 {
+    border: 1px;
+}

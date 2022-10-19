@@ -8,6 +8,7 @@
     <meta name="description" content="" />
     <meta name="keywords" content="" />
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <script src="js/main.js"></script>
     <title>Document</title>
   </head>
   <body>
@@ -15,7 +16,7 @@
       <form action="/people">
         <label><input type="radio" name="delivery" value="yes" />Yes</label>
         <label><input type="radio" name="delivery" value="no" />no</label>
-        <label for=""><input type="checkbox" /></label>
+        <label for="">ро<input type="checkbox" /></label>
       </form>
     </div>
 
@@ -36,7 +37,7 @@
       </div>
     </div>
     <!-- !урок 28 создание поля для ввода(отзыв и т.п) -->
-    <div class="lesson_29">
+    <div class="lesson-29">
       <form action="/people" method="post">
         <label for="description">Оставить отзыв:</label>
         <textarea name="link" id="description" cols="30" rows="4"></textarea>
@@ -46,7 +47,7 @@
     <div class="lesson_30">
       <form action="">
         Choose programing language:
-        <select>
+        <select aria-labelledby="sdsd">
           <option disabled value="">Choose programing language:</option>
           <option value="js">js</option>
           <option value="php">php</option>
@@ -57,7 +58,7 @@
       </form>
       <form action="/people">
         Choose programing language:
-        <select multiple>
+        <select multiple aria-labelledby="sdsd">
           <option disabled value="">Choose programing language:</option>
           <option value="js" class="select_table">js</option>
           <option value="php" class="select_table">php</option>
@@ -74,7 +75,7 @@
         <label for="text_search">Print your request:</label>
         <input type="text" name="Search" id="text_search" />
         Choose programing language:
-        <select style="text-align: center">
+        <select style="text-align: center" aria-labelledby="sdsd">
           <option disabled value="">Choose programing language:</option>
           <option value="js">js</option>
           <option value="php">php</option>
@@ -92,7 +93,7 @@
         <input type="text" name="Search" id="1" />
         <label for="2">2</label>
         <input type="text" name="Search" id="2" /><br />
-        <select name="" id="" multiple>
+        <select name="" id="" multiple aria-labelledby="sdsd">
           <option value="none" disabled>NONe</option>
           <option value="1">1</option>
           <option value="2">2</option>
@@ -204,10 +205,13 @@
           <span>autor: Jim Favon</span>
           <address><p>email: jim_favon@yahoo.com</p></address>
           <span>Email:</span>
-          
+
           <a href="mailto:jim_favon@yahoo.com">jim_favon@yahoo.com</a>
 
-          <time datetime="2022-10-15">October 15    -     время написание статьи в Emmet быстрого набора этого !нет!</time>
+          <time datetime="2022-10-15"
+            >October 15 - время написание статьи в Emmet быстрого набора этого
+            !нет!</time
+          >
         </footer>
       </article>
     </main>
@@ -216,10 +220,15 @@
         <h1 itemprop="name">Company "Pride"</h1>
         <!-- <p>address: <span itemprop="address">Ukraine, Kyiv, Marshala Tymoshenka, 2k</span></p>
         <p>Phone:<span itemprop="telephone">+380555644452</span></p> -->
-        <p>Email: <span itemprop="email"><a href="mailto:jim_favon@gmail.com">jim_favon@gmail.com</a></span></p>
+        <p>
+          Email:
+          <span itemprop="email"
+            ><a href="mailto:jim_favon@gmail.com">jim_favon@gmail.com</a></span
+          >
+        </p>
       </section>
     </footer>
     <p>Текст</p>
-    <img src="images.png" alt="images">
+    <img src="images.png" alt="images" />
   </body>
 </html>

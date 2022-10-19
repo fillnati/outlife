@@ -1,37 +1,18 @@
-header > nav > ul > li > a {
-  text-decoration: none;
+.btn {
+  border: 1px dotted;
+  color: #fff;
+  background-color: rgba(0, 0, 255, 0.113);
 }
-header > nav > ul > li {
-  list-style-type: none;
-  display: inline;
-  padding-left: 35px;
-}
-header > nav > ul {
-  display: block;
-  text-align: center;
-}
-header nav {
-  display: flex;
-  padding: 30px;
-  justify-content: space-between;
-}
-.buttons-header {
-  display: inline-block;
-  border: 3px;
+.btn__join {
   border-radius: 10px;
-  padding: 5px 15px;
+  padding: 3px;
 }
-.buttons-header a {
-  text-decoration: none;
-  color: black;
-  justify-content: center;
+.btn__sing-up {
+  margin-left: 5px;
+  border-radius: 15px;
+  padding: 5px;
 }
-.btn-join {
-  background-color: rgb(111, 111, 173);
-}
-.btn-sing-up {
-  background-color: bisque;
-}
-.pdg-left {
-  padding-left: 30px;
+
+.block_1 {
+  border: 1px;
 }
