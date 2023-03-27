@@ -1,0 +1,14 @@
+TextWidgetClass rootFrame {
+ ignorepointer 1
+ size 40 14
+ halign center_ref
+ valign center_ref
+ hexactpos 1
+ vexactpos 1
+ hexactsize 1
+ vexactsize 1
+ text ""
+ font "CodeLock/gui/fonts/ddin12"
+ "text halign" center
+ "text valign" center
+}
