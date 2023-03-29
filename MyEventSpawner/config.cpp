@@ -30,18 +30,34 @@ class CfgMods
 		type="mod";
 		dependencies[]=
 		{
-			"World",
 			"Game",
+			"World",
 			"Mission"
 		};
 		class defs
 		{
+			class gameScriptModule
+			{
+				value="";
+				files[]=
+				{
+					"MyEventSpawner\scripts\3_Game"
+				};
+			};
 			class worldScriptModule
 			{
 				value="";
 				files[]=
 				{
-					"MyEventSpawner\scripts\4_World"
+					"MyEventSpawner\scripts\3_World"
+				};
+			};
+			class missionScriptModule
+			{
+				value="";
+				files[]=
+				{
+					"MyEventSpawner\scripts\3_Mission"
 				};
 			};
 		};
