@@ -1,0 +1,5 @@
+//<'anomaly_storm_data.pbo' properties via Mikero's dos tools, dll version 9.24>
+product=dayz ugc;
+prefix=vwe\zone\anomaly_storm_data;
+//PboType=Arma Addon;
+//</properties>

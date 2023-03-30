@@ -1,0 +1,10 @@
+name = "Anomaly storm";
+picture = "vwe/zone/anomaly_storm_data/gui/textures/logo_zone_anomaly_storm_ca.paa";
+logoSmall = "vwe/zone/anomaly_storm_data/gui/textures/logo_zone_anomaly_storm_ca.paa";
+logo = "vwe/zone/anomaly_storm_data/gui/textures/logo_zone_anomaly_storm_ca.paa";
+logoOver = "vwe/zone/anomaly_storm_data/gui/textures/logo_zone_anomaly_storm_ca.paa";
+tooltip = "";
+overview = "$STR_anomaly_storm_mod_overview";
+action = "";
+author = "$STR_anomaly_storm_mod_author";
+version = "$STR_anomaly_storm_mod_version";

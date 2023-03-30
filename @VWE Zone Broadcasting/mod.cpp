@@ -1,0 +1,10 @@
+name = "Broadcasting";
+picture = "vwe/zone/broadcasting_data/logo_vwe_broadcasting_ca.paa";
+logoSmall = "vwe/zone/broadcasting_data/logo_vwe_broadcasting_ca.paa";
+logo = "vwe/zone/broadcasting_data/logo_vwe_broadcasting_ca.paa";
+logoOver = "vwe/zone/broadcasting_data/logo_vwe_broadcasting_ca.paa";
+tooltip = "";
+overview = "";
+action = "";
+author = "Virtual World Engineering";
+version = "1.0";

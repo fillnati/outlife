@@ -1,0 +1,6 @@
+//<'broadcasting.pbo' properties via Mikero's dos tools, dll version 9.24>
+prefix=vwe\zone\broadcasting;
+Mikero=DePbo.dll.7.98;
+version=21052000;
+//PboType=Arma Addon;
+//</properties>

@@ -1,0 +1,19 @@
+#define UNUSED_PARAMS \
+	luminanceRectCoef = 0.0; \
+	luminanceRectCoefCloud = 0.0; \
+	rayleigh[] = {0.0, 0.0, 0.0}; \
+	mie[] = {0.0, 0.0, 0.0}; \
+	cloudsColor[] = {0.0, 0.0, 0.0}; \
+	swBrightness = 0;
+
+#define OVERCAST__SKY_R									1.0
+#define OVERCAST__SKY_G									0.12
+#define OVERCAST__SKY_B									0.0
+#define OVERCAST__DAY_SKY_R								OVERCAST__SKY_R * 25.0
+#define OVERCAST__DAY_SKY_G								OVERCAST__SKY_G * 25.0
+#define OVERCAST__DAY_SKY_B								OVERCAST__SKY_B * 25.0
+
+#define OVERCAST__EV_MIN								-2.0
+#define OVERCAST__EV_MAX								0.0
+#define OVERCAST__DAY_EV_MIN							-2.0
+#define OVERCAST__DAY_EV_MAX							0.0
