@@ -1,3 +1,4 @@
+//Made by Pechyvo
 class CraftSeaChest extends RecipeBase
 {	
 	override void Init()

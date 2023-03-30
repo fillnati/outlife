@@ -1,3 +1,4 @@
+//Made by Pechyvo
 modded class PlayerBase extends ManBase
 {
 	void SetActions(out TInputActionMap InputActionMap)
