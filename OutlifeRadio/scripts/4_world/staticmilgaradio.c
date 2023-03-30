@@ -1,3 +1,4 @@
+//Made by Pechyvo
 class Ol_Static_TarasChubay_Milga extends BuildingSuper
 {
 protected ref EffectSound Ol_TarasChubaySound;

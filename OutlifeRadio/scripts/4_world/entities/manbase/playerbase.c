@@ -1,3 +1,4 @@
+//Made by Pechyvo
 modded class ModItemRegisterCallbacks
 {
 	override void RegisterOneHanded( DayZPlayerType pType, DayzPlayerItemBehaviorCfg pBehavior )

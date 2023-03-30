@@ -1,3 +1,4 @@
+//Made by Pechyvo
 ref TStringArray CassettesAsAtt = 
 	{ 
 		"Ol_TarasChubay_Cassette",

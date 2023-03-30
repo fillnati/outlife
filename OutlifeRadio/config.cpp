@@ -1,3 +1,4 @@
+//Made by Pechyvo
 class CfgPatches
 {
 	class OutlifeRadio

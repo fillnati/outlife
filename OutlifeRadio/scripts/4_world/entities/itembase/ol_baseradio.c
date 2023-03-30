@@ -1,3 +1,4 @@
+//Made by Pechyvo
 class Ol_BaseRadio extends ItemBase
 {	
 	const string TarasChubay		= "TarasChubay_Cassette_SoundSet";	
