@@ -213,7 +213,7 @@ class CfgVehicles
 			};
 		};
 	};
-	class AD_NFATACR_B13_RMRFix: AD_NFATACR_BaseFix
+	class Ol_NFATACR_B13_RMRFix: AD_NFATACR_BaseFix
 	{
 		scope=2;
 		displayName="$STR_AD_NFATACR3";
