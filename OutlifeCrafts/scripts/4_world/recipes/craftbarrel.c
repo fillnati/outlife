@@ -1,3 +1,4 @@
+//Made by Pechyvo
 class CraftBarrel extends RecipeBase
 {	
 	override void Init()

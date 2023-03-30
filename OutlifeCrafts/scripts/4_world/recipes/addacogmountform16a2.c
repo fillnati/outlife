@@ -3,7 +3,7 @@ class AddACOGMountForM16A2 extends RecipeBase
 {	
 	override void Init()
 	{
-		m_Name = "Прикрутити Кріплення";
+		m_Name = "Відкалібрувати Кріплення";
 		m_IsInstaRecipe = false;//should this recipe be performed instantly without animation
 		m_AnimationLength = 1;//animation length in relative time units
 		m_Specialty = -0.01;// value > 0 for roughness, value < 0 for precision
