@@ -26,7 +26,7 @@ class ActionDismountNFATACR_B13_RMR : ActionSingleUseBase
     {
         if( item)
         {
-            if(item.GetType() == "AD_NFATACR_B13_RMRFix")
+            if(item.GetType() == "Ol_NFATACR_B13_RMRFix")
                 return true;
         }
         return false;

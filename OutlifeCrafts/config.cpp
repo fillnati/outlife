@@ -16,9 +16,9 @@ class CfgMods
 {
 	class OutlifeCrafts
 	{
-        name = "Outlife Crafts";
-        credits = "";
-        author = "Pechyvo";
+		name = "Outlife Crafts";
+		credits = "";
+		author = "Pechyvo";
 		type = "mod";
 		dependencies[]={"World"};
 		class defs
