@@ -1,7 +1,7 @@
 //Made by Pechyvo
 class CfgPatches
 {
-	class AWS
+	class AWS_Fix
 	{
 		units[]={};
 		weapons[]={};
@@ -18,50 +18,42 @@ class CfgVehicles
 	//Advanced Weapon Scopes
 	class AD_B13Mount: Inventory_Base
 	{
-		scope=2;
 		repairableWithKits[]={8};
 		repairCosts[]={25};
 	};
 	class AD_MosinMount: Inventory_Base
 	{
-		scope=2;
 		repairableWithKits[]={8};
 		repairCosts[]={25};
 	};
 	class ItemOptics;
 	class AD_DHF5_Base: ItemOptics
 	{
-		scope=0;
 		repairableWithKits[]={8};
 		repairCosts[]={25};
 	};
 	class AD_LeupoldMk4_Base: ItemOptics
 	{
-		scope=0;
 		repairableWithKits[]={8};
 		repairCosts[]={25};
 	};
 	class AD_NFATACR_Base: ItemOptics
 	{
-		scope=0;
 		repairableWithKits[]={8};
 		repairCosts[]={25};
 	};
 	class AD_NFATACR_1_8_Base: ItemOptics
 	{
-		scope=0;
 		repairableWithKits[]={8};
 		repairCosts[]={25};
 	};
 	class AD_Pilad_Base: ItemOptics
 	{
-		scope=0;
 		repairableWithKits[]={8};
 		repairCosts[]={25};
 	};
 	class AD_PVS4_Base: ItemOptics
 	{
-		scope=0;
 		repairableWithKits[]={7};
 		repairCosts[]={50};
 	};

@@ -1,7 +1,7 @@
 //Made by Pechyvo
 class CfgPatches
 {
-	class Attachments
+	class Charger
 	{
 		units[]={};
 		weapons[]={};
@@ -18,7 +18,6 @@ class CfgVehicles
 	//BatteryCharger
 	class BatteryCharger: Inventory_Base
 	{
-		scope=2;
 		attachments[]=
 		{
 			"LargeBattery",

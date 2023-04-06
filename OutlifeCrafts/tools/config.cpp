@@ -1,14 +1,15 @@
 //Made by Pechyvo
 class CfgPatches
 {
-	class Attachments
+	class Tools
 	{
 		units[]={};
 		weapons[]={};
 		requiredVersion=0.1;
 		requiredAddons[]=
 		{
-			"DZ_Data"
+			"DZ_Data",
+			"DZ_Gear_Tools"
 		};
 	};
 };
@@ -18,42 +19,42 @@ class CfgVehicles
 	//Repairing Kits
 	class WeaponCleaningKit: Inventory_Base
 	{
-		scope=2;
 		canBeSplit=1;
+		weight=0.0099999998;
 	};
 	class SewingKit: Inventory_Base
 	{
-		scope=2;
 		canBeSplit=1;
+		weight=0.0099999998;
 	};
 	class LeatherSewingKit: Inventory_Base
 	{
-		scope=2;
 		canBeSplit=1;
+		weight=0.0099999998;
 	};
 	class ElectronicRepairKit: Inventory_Base
 	{
-		scope=2;
 		canBeSplit=1;
+		weight=0.0099999998;
 	};
 	class EpoxyPutty: Inventory_Base
 	{
-		scope=2;
 		canBeSplit=1;
+		weight=0.0099999998;
 	};
 	class Whetstone: Inventory_Base
 	{
-		scope=2;
 		canBeSplit=1;
+		weight=0.0099999998;
 	};
 	class DuctTape: Inventory_Base
 	{
-		scope=2;
 		canBeSplit=1;
+		weight=0.0099999998;
 	};
 	class TireRepairKit: Inventory_Base
 	{
-		scope=2;
 		canBeSplit=1;
+		weight=0.0099999998;
 	};
 };

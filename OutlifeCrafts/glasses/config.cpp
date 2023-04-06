@@ -18,7 +18,6 @@ class CfgVehicles
 	//NVG Headstrap
 	class NVGHeadstrap: Inventory_Base
 	{
-		scope=2;
 		repairableWithKits[]={8};
 		repairCosts[]={50};
 	};
